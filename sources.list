@@ -1,0 +1,11 @@
+deb http://se.archive.ubuntu.com/ubuntu/ kinetic main universe restricted multiverse
+deb-src http://se.archive.ubuntu.com/ubuntu/ kinetic main universe restricted multiverse #Added by software-properties
+
+deb http://security.ubuntu.com/ubuntu/ kinetic-security main universe restricted multiverse
+deb-src http://security.ubuntu.com/ubuntu/ kinetic-security main universe restricted multiverse #Added by software-properties
+
+deb http://se.archive.ubuntu.com/ubuntu/ kinetic-updates main universe restricted multiverse
+deb-src http://se.archive.ubuntu.com/ubuntu/ kinetic-updates main universe restricted multiverse #Added by software-properties
+
+deb http://se.archive.ubuntu.com/ubuntu/ kinetic-backports main universe restricted multiverse
+deb-src http://se.archive.ubuntu.com/ubuntu/ kinetic-backports main universe restricted multiverse #Added by software-properties
