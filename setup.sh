@@ -37,6 +37,7 @@ apt install -y \
     fastboot \
     ffmpeg \
     flatpak \
+    fwupd \
     gcc \
     gdebi \
     git \
