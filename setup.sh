@@ -34,6 +34,7 @@ apt install -y \
     cryptsetup \
     cups \
     curl \
+    default-jre \
     fastboot \
     ffmpeg \
     flatpak \
