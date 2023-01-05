@@ -48,6 +48,7 @@ apt install -y \
     htop \
     intel-media-va-driver-non-free \
     kde-plasma-desktop \
+    language-pack-gnome-sv \
     language-pack-kde-sv \
     make \
     materia-gtk-theme \
@@ -75,7 +76,6 @@ curl -L https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.de
 dpkg -i $HOME/google-chrome-stable_current_amd64.deb
 apt install -f -y
 
-: '
 # install gdal stuff
 apt install -y \
     gdal-bin \
@@ -87,7 +87,6 @@ apt install -y \
     python3-gdal \
     python3-lxml \
     python3-protobuf
-'
 
 # remove old intel driver
 apt remove xserver-xorg-video-intel -y
